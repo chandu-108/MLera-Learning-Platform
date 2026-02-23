@@ -6,13 +6,13 @@ import { QueryProvider } from "@/components/providers/QueryProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Introduction to Linear Regression | MLera",
+  title: "MLera",
   description: "Learn Linear Regression interactively with MLera. Master machine learning fundamentals through hands-on visualizations, hyperparameter tuning, and step-by-step guided content.",
   icons: {
     icon: "/favicon.png",
   },
   openGraph: {
-    title: "Introduction to Linear Regression | MLera",
+    title: "MLera",
     description: "Interactive learning platform for mastering Linear Regression and machine learning concepts.",
     type: "website",
   },
