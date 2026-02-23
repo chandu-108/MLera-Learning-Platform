@@ -110,7 +110,7 @@ function Navbar() {
         <div className="flex items-center gap-3">
           <span className="hidden sm:flex items-center gap-1.5 text-xs text-white/30 font-mono">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            Module 2 of 5
+            Module 1 of 5
           </span>
           <motion.button
             whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.96 }}
@@ -850,7 +850,7 @@ export default function LinearRegressionPage() {
 
           <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-5">
             <div className="w-full lg:max-w-sm">
-              <ProgressBar current={2} total={5} />
+              <ProgressBar current={1} total={5} />
             </div>
             <Reveal delay={0.2}>
               <div className="flex gap-3 flex-wrap">

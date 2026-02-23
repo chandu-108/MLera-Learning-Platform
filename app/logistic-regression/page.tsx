@@ -94,7 +94,7 @@ function Navbar() {
         <div className="flex items-center gap-3">
           <span className="hidden sm:flex items-center gap-1.5 text-xs text-white/30 font-mono">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            Module 3 of 5
+            Module 2 of 5
           </span>
           <motion.button whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.96 }}
             className="text-xs px-4 py-2 rounded-lg font-semibold text-white"
@@ -108,7 +108,7 @@ function Navbar() {
 }
 
 // ─── Progress Bar ─────────────────────────────────────────────────────────────
-function ProgressBar({ current = 3, total = 5 }: { current?: number; total?: number }) {
+function ProgressBar({ current = 2, total = 5 }: { current?: number; total?: number }) {
   const pct = (current / total) * 100;
   return (
     <div className="space-y-2">
@@ -813,7 +813,7 @@ export default function LogisticRegressionPage() {
             <div className="flex items-center gap-3 mb-3">
               <span className="text-xs font-mono px-3 py-1.5 rounded-full border"
                 style={{ borderColor: `${C.purple}40`, background: `${C.purple}0d`, color: C.purple }}>
-                Module 3 · Classification
+                Module 2 · Classification
               </span>
             </div>
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-black leading-tight"
@@ -826,7 +826,7 @@ export default function LogisticRegressionPage() {
 
           <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-5">
             <div className="w-full lg:max-w-sm">
-              <ProgressBar current={3} total={5} />
+              <ProgressBar current={2} total={5} />
             </div>
             <Reveal delay={0.2}>
               <div className="flex gap-3">
